@@ -10,14 +10,14 @@
             <div class="card p-3">
               <div class="text_content">
                 <label for="" class="font-18">Introduction:</label>
-                <textarea name="" id="" cols="30" rows="10" class=" editor form-control border border-warning ">
+                <textarea name="agreement_intro" id="agreement_intro" cols="30" rows="10" class=" editor form-control border border-warning ">
                      This Agreement is made between !CLIENT_COMPANY! (The "Client"), whose principal place of Business is
 
                       !CLIENT_ADDR1! !CLIENT_ADDR2!
                       !CLIENT_CITY!, !CLIENT_STATE! !CLIENT_ZIP!
                     </textarea>
                 <div class="mt-3">
-                  <input type="checkbox" class="form-check-input " name="" id="int_input">
+                  <input type="checkbox" class="form-check-input " name="agree_int_inc" id="agree_int_inc">
                   <label for="int_input">Include this?</label>
                 </div>
               </div>
@@ -27,14 +27,14 @@
             <div class="card p-3">
               <div class="text_content">
                 <label for="" class="font-18">NSS Contact Information:</label>
-                <textarea name="" id="" cols="30" rows="10" class=" editor form-control border border-warning ">
+                <textarea name="agreement_contact" id="agreement_contact" cols="30" rows="10" class=" editor form-control border border-warning ">
                   and !NSG_NAME! (NSS) (The "Consultant")
                   !NSG_ADDR1!
                   !NSG_ADDR2!
                   !NSG_CITY!, !NSG_STATE! !NSG_ZIP!
                     </textarea>
                 <div class="mt-3">
-                  <input type="checkbox" class="form-check-input " name="" id="int_input">
+                  <input type="checkbox" class="form-check-input " name="agree_con_inc" id="agree_con_inc">
                   <label for="int_input">Include this?</label>
                 </div>
               </div>
@@ -45,13 +45,13 @@
             <div class="card p-3">
               <div class="text_content">
                 <label for="" class="font-18">General Acknowledgement:</label>
-                <textarea name="" id="" cols="30" rows="10" class=" editor form-control border border-warning ">
+                <textarea name="agreement_general" id="agreement_general" cols="30" rows="10" class=" editor form-control border border-warning ">
                   <p><strong>GENERAL ACKNOWLEDGEMENT<br /><br />_______ &lt; Initial&nbsp;</strong>that Client acknowledges during the period of any work performed by NSS, unpredictable errors or behaviors may be encountered while performing services detailed herein and that these services may exceed the scope of this proposal and require additional billable work performed by NSS or a third party.&nbsp;&nbsp;Client is willing to be billed for that additional work only after discussing it with NSS.&nbsp; NSS agrees to be up front about any additional time / fees needed and will notify the client as soon as any situation presents itself and will do so BEFORE proceeding with any additional work or billable hours.&nbsp;Client is in agreement with the terms put forth here and client acknowledges certain files, code, formatting, content, portions of the web site etc&nbsp;<strong>may&nbsp;</strong>become unresponsive or altered and that NSS is not to be held accountable for damages, loss or inconveniences resulting from such occurrences. We will make every effort to fix any situations as quickly as we can, typically within 24 business hours or less.<br />&nbsp;</p>
                   <hr />
                   <p>&nbsp;</p>
                     </textarea>
                 <div class="mt-3">
-                  <input type="checkbox" class="form-check-input " name="" id="int_input">
+                  <input type="checkbox" class="form-check-input " name="agree_gen_inc" id="agree_gen_inc">
                   <label for="int_input">Include this?</label>
                 </div>
               </div>
@@ -62,7 +62,7 @@
             <div class="card p-3">
               <div class="text_content">
                 <label for="" class="font-18">Other Section:</label>
-                <textarea name="" id="" cols="30" rows="10" class=" editor form-control border border-warning ">
+                <textarea name="agreement_other" id="agreement_other" cols="30" rows="10" class=" editor form-control border border-warning ">
                   <ol class="style1">
                   <ol class="style1">
                   <li><strong>Expenses</strong>:<br />Consultant will not be reimbursed for any expenses incurred in connection with the performance of services under this Agreement, unless those expenses are approved in advance in writing by Client</li>
@@ -274,7 +274,7 @@
                   <p>&nbsp;</p>
                     </textarea>
                 <div class="mt-3">
-                  <input type="checkbox" class="form-check-input " name="" id="int_input">
+                  <input type="checkbox" class="form-check-input " name="agree_other_inc" id="agree_other_inc">
                   <label for="int_input">Include this?</label>
                 </div>
               </div>

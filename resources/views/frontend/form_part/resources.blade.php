@@ -10,7 +10,7 @@
             <div class="card p-3">
               <div class="text_content">
                 <label for="" class="font-18">Introduction:</label>
-                <textarea name="" id="" cols="30" rows="10" class=" editor form-control border border-warning ">
+                <textarea name="resources_intro" id="resources_intro" cols="30" rows="10" class=" editor form-control border border-warning ">
                           <p><strong>Resources/ tool kit implemented:</strong></p>
                           <ul type="disc">
                           <li>NSS Team:
@@ -71,7 +71,7 @@
                           <p>If there is a problem we will assist you even if it is after Business hour(s).&nbsp;&nbsp;After hours / weekend&nbsp;hours rate is 2x our prevailing rate hourly of&nbsp;<strong>$!RATE!.00</strong><br />&nbsp;</p>
                     </textarea>
                 <div class="mt-3">
-                  <input type="checkbox" class="form-check-input " name="" id="int_input">
+                  <input type="checkbox" class="form-check-input " name="resource_include" id="resource_include">
                   <label for="int_input">Include this?</label>
                 </div>
               </div>

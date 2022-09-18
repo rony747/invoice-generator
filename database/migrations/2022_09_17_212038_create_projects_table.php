@@ -23,6 +23,7 @@ return new class extends Migration
             $table->double('rate_seo')->nullable();
             $table->double('rate_hosting')->nullable();
             $table->double('rate_hosting_ecommerce')->nullable();
+            $table->string('due')->nullable();
             $table->string('company_name')->nullable();
             $table->string('first_name')->nullable();
             $table->string('last_name')->nullable();
@@ -39,6 +40,10 @@ return new class extends Migration
             $table->text('resources_intro')->nullable();
             $table->text('getting_intro')->nullable();
             $table->text('getting_signature')->nullable();
+            $table->text('agreement_intro')->nullable();
+            $table->text('agreement_contact')->nullable();
+            $table->text('agreement_general')->nullable();
+            $table->text('agreement_other')->nullable();
             $table->timestamps();
         });
     }

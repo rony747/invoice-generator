@@ -10,12 +10,12 @@
             <div class="card p-3">
               <div class="text_content">
                 <label for="" class="font-18">Introduction:</label>
-                <textarea name="" id="" cols="30" rows="10" class=" editor form-control border border-warning ">
+                <textarea name="scope_intro" id="scope_intro" cols="30" rows="10" class=" editor form-control border border-warning ">
                       Client may be asked to assist creating or approve the content NSS creates for the pages of the web site, the company's history and any other knowledge specific to the company or related to the web site. Client is not required to provide content, but providing content will be helpful and more efficient.
                     </textarea>
                 <div class="mt-3">
-                  <input type="checkbox" class="form-check-input " name="" id="int_input">
-                  <label for="int_input">Include this?</label>
+                  <input type="checkbox" class="form-check-input" name="scope_int_inc" id="scope_int_inc">
+                  <label for="scope_int_inc">Include this?</label>
                 </div>
               </div>
             </div>
@@ -24,7 +24,7 @@
             <div class="card p-3">
               <div class="text_content">
                 <label for="" class="font-18">Methodology: </label>
-                <textarea name="" id="" cols="30" rows="10" class=" editor form-control border border-warning ">
+                <textarea name="scope_methodology" id="scope_methodology" cols="30" rows="10" class=" editor form-control border border-warning ">
                       <ul>
                       <li>Provide access to existing web site if requested by NSS</li>
                       <li>Provide list of email address needed</li>
@@ -34,8 +34,8 @@
                       </ul>
                     </textarea>
                 <div class="mt-3">
-                  <input type="checkbox" class="form-check-input " name="" id="int_input">
-                  <label for="int_input">Include this?</label>
+                  <input type="checkbox" class="form-check-input" name="scope_meth_inc" id="scope_meth_inc">
+                  <label for="scope_meth_inc">Include this?</label>
                 </div>
               </div>
             </div>
